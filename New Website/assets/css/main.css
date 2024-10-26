@@ -2652,3 +2652,46 @@ p + p{
     color: rgb(255 255 255 / var(--tw-text-opacity));
   }
 }
+
+
+
+#pricing .container div{
+  width: 70%;
+  letter-spacing: 2px; 
+  word-spacing: 6px;
+}
+
+#pricing .container div h2{
+  color: #FF6700;
+  line-height: 33px;
+  font-size: 30px;
+  font-weight: 600;
+  margin: 4px 0px;
+}
+
+#pricing .container div h3{
+  color: yellow;
+  font-size: 25px;
+  line-height: 28px;
+  font-weight: 400;
+  margin: 4px 0px;
+}
+
+#pricing .container div p,ul{
+  color: white;
+  text-align: justify;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+#pricing .container div li{
+  margin-left: 20px;
+}
+
+#pricing .container div ul{
+  list-style: inside;
+  list-style-position:  outside;
+}
+#pricing .container div ul li{
+  margin-top: 10px;
+}
