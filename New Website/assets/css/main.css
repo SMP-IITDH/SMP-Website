@@ -2652,3 +2652,56 @@ p + p{
     color: rgb(255 255 255 / var(--tw-text-opacity));
   }
 }
+
+
+
+#pricing .container div{
+  width: 70%;
+  letter-spacing: 2px; 
+  word-spacing: 6px;
+}
+
+#pricing .container div h2 {
+  color: #FF6700;
+  line-height: 2; /* Use a unitless number for line-height */
+  font-size: 1.875rem; /* 30px / 16px */
+  font-weight: 600;
+  margin: 0.25rem 0; /* 4px / 16px */
+}
+
+#pricing .container div h3 {
+  color: yellow;
+  font-size: 1.5625rem; /* 25px / 16px */
+  line-height: 1.75; /* Use a unitless number for line-height */
+  font-weight: 400;
+  margin: 0.25rem 0; /* 4px / 16px */
+}
+
+#pricing .container div p,
+#pricing .container div ul {
+  color: white;
+  text-align: justify;
+  font-size: 0.9375rem; /* 15px / 16px */
+  font-weight: 300;
+}
+
+
+#pricing .container div li{
+  margin-left: 20px;
+}
+
+#pricing .container div ul{
+  list-style: inside;
+  list-style-position:  outside;
+}
+#pricing .container div ul li{
+  margin-top: 10px;
+}
+
+@media (max-width: 550px) {
+  #pricing .container div{
+    width: 90%;
+    letter-spacing: 1px; 
+    word-spacing: 4px;
+  }
+}
