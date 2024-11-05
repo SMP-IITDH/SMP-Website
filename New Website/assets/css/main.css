@@ -2732,7 +2732,7 @@ p + p{
 .card {
   height: 30%; 
   min-height: 250px;
-  min-width: 300px;
+  min-width: 200px;
   max-width: 30%;
   background-size: cover;
   background-position: center;
@@ -2742,6 +2742,8 @@ p + p{
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   transition: box-shadow 0.3s ease;
   border: 1px solid rgba(0, 0, 0, 0.125);
+  background-repeat: no-repeat;
+  aspect-ratio: 16/9;
 }
 
 .card:hover {
